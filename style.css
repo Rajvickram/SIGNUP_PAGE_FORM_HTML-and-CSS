@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Urbanist&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right,lightblue,lightgreen);
+}
+
+.container{
+    border: 2px solid ;;
+    margin: 12rem auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 1.25rem;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.input input{
+    width: 15rem;
+    height: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    padding: 0.7rem;
+    border: 0.1rem solid;
+}
+
+button{
+    margin-top: 1rem;
+    width: 16.2rem;
+    height: 2.2rem;
+    margin-left: 2.2rem;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+}
+
+p{
+    margin-left: 4.25rem;
+}
+
+p a {
+    color: blue;
+}
+
+p a:hover{
+    color: brown;
+}
+
+.input input:hover{
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+.container:hover{
+    background: linear-gradient(to right,blue,yellow,green);
+}
+
+@media screen and (min-width:801px) {
+    .container{
+        width: 20%;
+    }
+}
+
